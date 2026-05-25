@@ -1,0 +1,15 @@
+[property]
+enable=1
+config-width=1920
+config-height=1080
+# osd-mode=2 é mais estável para mostrar etiquetas e trajetórias
+osd-mode=2
+display-font-size=14
+
+[roi-filtering-stream-0]
+enable=1
+roi-L_Topo=600;605;980;605;980;600;600;600
+roi-L_Base=200;700;900;700;900;705;200;705
+
+roi-R_Topo=1000;625;1750;625;1750;620;1000;620
+roi-R_Base=1050;735;1750;735;1750;740;1050;740
