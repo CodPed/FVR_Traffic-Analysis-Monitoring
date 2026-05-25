@@ -1,4 +1,4 @@
-# Smart Traffic Analytics with NVIDIA DeepStream
+#     FVR_Traffic Analysis Monitoring with NVIDIA DeepStream
 
 Real-time traffic analytics system powered by NVIDIA DeepStream and Python.  
 This project performs vehicle detection and classification, estimates instantaneous speed, and identifies wrong-way driving violations. It is designed for high-performance NVIDIA GPUs and can be used as a scalable base for Smart Cities and road safety monitoring applications.
