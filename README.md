@@ -52,7 +52,7 @@ The application uses the following paths inside the DeepStream container:
 /data/config_infer_secondary_vehicletypes_runtime.txt   # optional
 ```
 
-The SGIE configuration file is optional. If it is not available, the application still runs, but vehicle type labels may appear as `unknown type`.
+The SGIE configuration file is optional. If it is not available, the application should still run, but vehicle type labels may appear as `unknown type`.
 
 ## Before running DeepStream
 
@@ -120,12 +120,12 @@ Make sure `traffic.mp4` is available in the mounted folder as:
 ```text
 /data/traffic.mp4
 ```
-
 Then run:
 
 ```bash
 python3 /data/traffic_analytics_deepstream.py
 ```
+Note: This project is currently calibrated for the traffic video available on YouTube: https://www.youtube.com/watch?v=nt3D26lrkho.
 
 ## Analytics configuration
 
