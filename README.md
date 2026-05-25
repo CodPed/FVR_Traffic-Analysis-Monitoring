@@ -151,33 +151,4 @@ DISTANCE_METERS = 16.0
 - The primary inference configuration uses the default DeepStream sample path:
   `/opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/config_infer_primary.txt`
 
-## Create and publish the GitHub repository
-
-Create a new repository on GitHub, for example:
-
-```text
-deepstream-traffic-analytics
-```
-
-Then run these commands from the project folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/deepstream-traffic-analytics.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
-## Suggested repository description
-
-```text
-Real-time traffic analytics system using NVIDIA DeepStream and Python for vehicle detection, speed estimation, vehicle type classification, and wrong-way driving detection.
-```
-
-## License
-
 This project is intended for academic and research purposes. Add a license file before making the repository public if needed.
