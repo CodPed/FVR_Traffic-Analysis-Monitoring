@@ -3,6 +3,9 @@
 Real-time traffic analytics system powered by NVIDIA DeepStream and Python.  
 This project performs vehicle detection and classification, estimates instantaneous speed, and identifies wrong-way driving violations. It is designed for high-performance NVIDIA GPUs and can be used as a scalable base for Smart Cities and road safety monitoring applications.
 
+
+![DeepStream traffic analytics demo](assets/img.png)
+
 ## Features
 
 - Vehicle detection using NVIDIA DeepStream primary inference
@@ -17,6 +20,11 @@ This project performs vehicle detection and classification, estimates instantane
 
 ```text
 .
+├── assets
+ |── img.png
+ |── img1.png
+ |── imgWrong.png
+ |── imgWrong1.png
 ├── README.md
 ├── traffic_analytics_deepstream.py
 ├── config_analytics.txt
@@ -144,3 +152,5 @@ DISTANCE_METERS = 16.0
   `/opt/nvidia/deepstream/deepstream/samples/configs/deepstream-app/config_infer_primary.txt`
 
 This project is intended for academic and research purposes. Add a license file before making the repository public if needed.
+
+## Notes
