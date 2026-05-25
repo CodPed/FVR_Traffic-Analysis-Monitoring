@@ -6,7 +6,7 @@ This project performs vehicle detection and classification, estimates instantane
 
 ![DeepStream traffic analytics demo](assets/img.png)
 
-![DeepStream traffic analytics demo](assets/imgWrong1.png)
+![DeepStream traffic analytics demo - wrong way](assets/imgwrong1.png)
 
 
 ## Features
