@@ -20,8 +20,7 @@ This project performs vehicle detection and classification, estimates instantane
 ├── README.md
 ├── traffic_analytics_deepstream.py
 ├── config_analytics.txt
-├── config_infer_secondary_vehicletypes_runtime.txt
-└── .gitignore
+└── config_infer_secondary_vehicletypes_runtime.txt
 ```
 
 ## Requirements
