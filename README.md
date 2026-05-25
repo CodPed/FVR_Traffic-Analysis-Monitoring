@@ -159,7 +159,7 @@ This project is intended for academic and research purposes. Add a license file 
 
 ### Experimental color detection
 
-A separate experimental implementation was developed to estimate vehicle colors. However, this version is not fully functional in the current project because the additional image processing reduces the real-time performance of the pipeline.
+A separate experimental implementation was developed to estimate vehicle colors. However, this version is not fully functional in the current project because the additional image processing reduces the real-time performance of the pipeline and it was frustrating to work there given the poor performance. 
 
 This performance drop affects both the average speed estimation and the reliability of the color classification itself. For that reason, color detection is not included in the main recommended version.
 
@@ -180,3 +180,4 @@ Then run:
 ```bash
 python3 /data/traffic_analytics_color_grabcut.py
 ```
+![DeepStream traffic analytics color detection](assets/colordetection.png)
