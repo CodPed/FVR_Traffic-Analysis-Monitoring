@@ -8,7 +8,7 @@ This project performs vehicle detection and classification, estimates instantane
 - Vehicle detection using NVIDIA DeepStream primary inference
 - Object tracking with the DeepStream multi-object tracker
 - Vehicle type classification with an optional Secondary GIE (SGIE)
-- Instantaneous speed estimation using two virtual ROI lines
+- Average speed estimation using two virtual ROI lines
 - Wrong-way driving detection based on vehicle movement direction
 - On-screen display with object ID, vehicle type, speed, and alert state
 - Console alerts for normal and wrong-way traffic events
