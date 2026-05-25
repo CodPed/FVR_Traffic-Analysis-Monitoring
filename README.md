@@ -166,7 +166,7 @@ This performance drop affects both the average speed estimation and the reliabil
 The experimental script is available at:
 
 ```text
-/data/velocidade_contramao_cor_grabcut.py
+/data/traffic_analytics_color_grabcut.py
 ```
 
 To use this version, install the additional dependency inside the DeepStream container:
@@ -178,5 +178,5 @@ pip3 install opencv-python-headless
 Then run:
 
 ```bash
-python3 /data/velocidade_contramao_cor_grabcut.py
+python3 /data/traffic_analytics_color_grabcut.py
 ```
