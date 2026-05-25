@@ -6,6 +6,9 @@ This project performs vehicle detection and classification, estimates instantane
 
 ![DeepStream traffic analytics demo](assets/img.png)
 
+![DeepStream traffic analytics demo](assets/imgWrong1.png)
+
+
 ## Features
 
 - Vehicle detection using NVIDIA DeepStream primary inference
