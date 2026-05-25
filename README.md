@@ -104,12 +104,6 @@ wget https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/releases/download/v
 pip3 install pyds-1.1.10-py3-none-linux_x86_64.whl
 ```
 
-You can also run:
-
-```bash
-bash /data/scripts/install_dependencies.sh
-```
-
 ## Run the application
 
 Make sure `traffic.mp4` is available in the mounted folder as:
