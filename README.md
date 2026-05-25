@@ -126,6 +126,7 @@ Then run:
 python3 /data/traffic_analytics_deepstream.py
 ```
 Note: This project is currently calibrated for the traffic video available on YouTube: https://www.youtube.com/watch?v=nt3D26lrkho.
+The ROI lines, speed estimation distance, and wrong-way driving logic were adjusted for this specific video. If you use a different video, it is recommended to choose one with vehicles moving mainly from the top/center of the frame, similar to the reference video. You will likely need to adjust the ROI/bounding-box coordinates in config_analytics.txt and, if necessary, update the real-world distance used for speed estimation in the Python script.
 
 ## Analytics configuration
 
