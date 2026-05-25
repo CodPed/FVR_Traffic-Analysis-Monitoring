@@ -156,4 +156,26 @@ DISTANCE_METERS = 16.0
 
 This project is intended for academic and research purposes. Add a license file before making the repository public if needed.
 
-## Notes
+### Experimental color detection
+
+A separate experimental implementation was developed to estimate vehicle colors. However, this version is not fully functional in the current project because the additional image processing reduces the real-time performance of the pipeline.
+
+This performance drop affects both the average speed estimation and the reliability of the color classification itself. For that reason, color detection is not included in the main recommended version.
+
+The experimental script is available at:
+
+```text
+/data/velocidade_contramao_cor_grabcut.py
+```
+
+To use this version, install the additional dependency inside the DeepStream container:
+
+```bash
+pip3 install opencv-python-headless
+```
+
+Then run:
+
+```bash
+python3 /data/velocidade_contramao_cor_grabcut.py
+```
